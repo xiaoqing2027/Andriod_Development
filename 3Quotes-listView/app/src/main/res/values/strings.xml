@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW3-listView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="alertdialog">Settings</string>
+    <string name="positive">Allow</string>
+    <string name="negative">Not Allow</string>
+</resources>

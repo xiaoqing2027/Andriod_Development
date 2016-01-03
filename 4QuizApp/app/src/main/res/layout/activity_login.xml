@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#c073e3cc"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Quiz"
+        android:id="@+id/textView2"
+        android:textColor="#263232"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/abc_dropdownitem_icon_width" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp" />
+
+    <RadioGroup
+        android:id="@+id/radioQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/radioTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_true"
+            android:checked = "true"
+            />
+        <RadioButton
+            android:id="@+id/radioFalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_false" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_display"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:src="@drawable/next"
+        android:clickable="true"
+        android:layout_marginLeft="40dp"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:layout_weight="0.03"
+        android:layout_marginTop="20dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="0.0"
+        android:isIndicator="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/test"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
